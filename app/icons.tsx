@@ -1,11 +1,11 @@
 
 export const VercelIcon = () => {
-  return <img src="kriterium-logo.png" alt="Kriterium Icon" width="40" height="40" />;
+  return <img src="/kriterium-logo.png" alt="Kriterium Icon" width="auto" height="70" />;
 };
 
 
 export const GithubIcon = () => {
-  return <img src="kriterium-logo.png" alt="Kriterium Icon" width="40" height="40" />;
+  return <img src="/kriterium-logo.png" alt="Kriterium Icon" width="40" height="40" />;
 };
 
 export const LoadingCircle = () => {
