@@ -16,7 +16,7 @@ export const useChatState = () => {
   const [threadId, setThreadId] = useState<string | null>(null);
   const [isStartLoading, setStartLoading] = useState(false);
   const [isSending, setIsSending] = useState(false);
-  const [initialThreadMessage, setInitialThreadMessage] = useState('Introduce yourself');
+  const [initialThreadMessage, setInitialThreadMessage] = useState('Introduce yourself based on the assistant information provided. Be short and clear.');
   const [statusMessage, setStatusMessage] = useState('');
   const counter = useRef(0);
   const inputRef = useRef(null);

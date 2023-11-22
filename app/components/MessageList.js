@@ -20,7 +20,7 @@ const Message = ({ message, progress, isFirstMessage }) => {
             message.role === "assistant" ? "bg-green-500" : "bg-black"
           )}
         >
-          {message.role === "user" ? <User width={20} /> : <Bot width={20} />}
+          {message.role === "user" ? <User width={20} source={"kriterium-logo.png"}/> : <Bot width={20} />}
         </div>
         {message.role === "assistant" && message.isLoading ? (
           <>

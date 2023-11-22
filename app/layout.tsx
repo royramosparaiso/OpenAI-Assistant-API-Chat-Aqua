@@ -7,10 +7,10 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Agent42",
+  title: "Kriterium Assistant",
   description:
-    "OpenAI Assistant",
-    metadataBase: 'https://mydomain.com'
+    "Kriterium Business Assistant",
+    metadataBase: 'https://kriterium.capital'
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
