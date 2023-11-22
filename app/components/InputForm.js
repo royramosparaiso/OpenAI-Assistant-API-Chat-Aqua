@@ -34,7 +34,7 @@ const InputForm = ({ input, setInput, handleFormSubmit, inputRef, formRef, disab
             "absolute inset-y-0 right-3 my-auto flex h-8 w-8 items-center justify-center rounded-md transition-all",
             disabled || !chatStarted || input.trim().length === 0 || isSending
               ? "cursor-not-allowed bg-white"
-              : "bg-green-500 hover:bg-green-600",
+              : "bg-gray-500",
           )}
           disabled={disabled || !chatStarted || isLoading || isSending}
         >

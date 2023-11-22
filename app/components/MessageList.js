@@ -17,7 +17,7 @@ const Message = ({ message, progress, isFirstMessage }) => {
         <div
           className={clsx(
             "p-1.5 text-white",
-            message.role === "assistant" ? "bg-green-500" : "bg-black"
+            message.role === "assistant" ? "bg-gray-500" : "bg-black"
           )}
         >
           {message.role === "user" ? <User width={20} source={"kriterium-logo.png"}/> : <Bot width={20} />}
@@ -25,7 +25,7 @@ const Message = ({ message, progress, isFirstMessage }) => {
         {message.role === "assistant" && message.isLoading ? (
           <>
             <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden">
-              <div className={clsx("h-full bg-green-500", isFirstMessage ? "animate-spin-slow" : "")} style={{ width: `${progress}%` }}></div>
+              <div className={clsx("h-full bg-gray-500", isFirstMessage ? "animate-spin-slow" : "")} style={{ width: `${progress}%` }}></div>
             </div>
             <div className="w-full flex items-center justify-center text-xs text-green-500">
               {message.statusMessage}
@@ -85,7 +85,7 @@ const MessageList = ({ chatMessages, statusMessage, isSending, progress, isFirst
       {isFirstMessage && (
         <div className="status-messages">
           <div className="w-full h-4 bg-gray-200 rounded-full overflow-hidden">
-            <div className={clsx("h-full bg-green-500 animate-pulse", isFirstMessage ? "animate-spin-slow" : "")} style={{ width: `${progress}%` }}></div>
+            <div className={clsx("h-full bg-gray-500 animate-pulse", isFirstMessage ? "animate-spin-slow" : "")} style={{ width: `${progress}%` }}></div>
           </div>
           <div className="w-full flex items-center justify-center text-xs text-green-500">
             {statusMessage}
