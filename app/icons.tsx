@@ -1,6 +1,6 @@
 
 export const VercelIcon = () => {
-  return <img src="/kriterium-logo.png" alt="Kriterium Icon" width="auto" height="70" />;
+  return <img src="https://qrcgcustomers.s3-eu-west-1.amazonaws.com/account30649844/41637839_1.png" alt="Kriterium Icon" width="auto" height="70" />;
 };
 
 
