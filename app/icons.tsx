@@ -1,11 +1,11 @@
 
 export const VercelIcon = () => {
-  return <img src="https://www.aquaesolutions.com/Binary%20Documents/BD!WCOVERPAGE!305c29c1-a325-4b8a-a877-9798cc118dcd!20200324172502.png" alt="Kriterium Icon"  />;
+  return <img src="https://www.aquaesolutions.com/Binary%20Documents/BD!WCOVERPAGE!305c29c1-a325-4b8a-a877-9798cc118dcd!20200324172502.png" alt="Aqua Icon"  />;
 };
 
 
 export const GithubIcon = () => {
-  return <img src="/kriterium-logo.png" alt="Kriterium Icon" width="40" height="40" />;
+  return <img src="/logo.png" alt="Aqua Icon" width="40" height="40" />;
 };
 
 export const LoadingCircle = () => {
